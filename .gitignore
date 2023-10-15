@@ -1,8 +1,6 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/LernDevSecOps/FileContentIndex
-/.vs/LernDevSecOps/v17/.wsuo
-/.vs/slnx.sqlite
-/.vs/VSWorkspaceState.json
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+/.vs
