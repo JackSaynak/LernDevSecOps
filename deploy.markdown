@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Deploy
+layout: default
+title: Automated Deploy
 permalink: /deploy/
 ---
 

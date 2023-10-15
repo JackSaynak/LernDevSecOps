@@ -1,1 +1,83 @@
-<p>Technique for scanning Source Code to find vulnerabilities, find patterns, or have a method known as White Box testing, with commonly used tools such as Sonarqube, GitLab, or Fortify, etc.</p>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SAST | Introduce to DevSecOps</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="SAST" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Lerning DevSecOps for beginer" />
+<meta property="og:description" content="Lerning DevSecOps for beginer" />
+<link rel="canonical" href="http://localhost:4000/LernDevSecOps/sast/" />
+<meta property="og:url" content="http://localhost:4000/LernDevSecOps/sast/" />
+<meta property="og:site_name" content="Introduce to DevSecOps" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SAST" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Lerning DevSecOps for beginer","headline":"SAST","url":"http://localhost:4000/LernDevSecOps/sast/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/LernDevSecOps/assets/css/style.css?v=73ecfa8e98efdcc1fd026f4f21c3388f8c8cb1a4">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/LernDevSecOps/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">       
+   
+      <h1 class="project-name">SAST</h1>
+      <!-- <h2 class="project-tagline">Lerning DevSecOps for beginer</h2> -->
+
+    </header>       
+    <div style="background-color: black;text-align: center;padding: 20px;">
+        <a href="/LernDevSecOps/" style="color: white;font-size: 18;padding: 20px;">Home</a>
+        <a href="/LernDevSecOps/overview" style="color: white;font-size: 18;padding: 20px;">Overview</a>
+        <a href="/LernDevSecOps/securecode" style="color: white;font-size: 18;padding: 20px;">Secure Code</a>
+        <a href="/LernDevSecOps/deploy" style="color: white;font-size: 18;padding: 20px;">CI/CD</a>
+        <a href="/LernDevSecOps/sast" style="color: white;font-size: 18;padding: 20px;">SAST</a>
+        <a href="/LernDevSecOps/dast" style="color: white;font-size: 18;padding: 20px;">DAST</a>
+      </div> 
+    <main id="content" class="main-content" role="main">
+
+      <blockquote>
+  <p>Static application security testing (SAST), or static analysis, is a testing methodology that analyzes source code to find security vulnerabilities that make your organization’s applications susceptible to attack. SAST scans an application before the code is compiled. It’s also known as white box testing</p>
+</blockquote>
+
+<p>There are six simple steps needed to perform SAST efficiently in organizations that have a very large number of applications built with different languages, frameworks, and platforms.</p>
+
+<ol>
+  <li><strong>Finalize the tool.</strong> Select a static analysis tool that can perform code reviews of applications written in the programming languages you use. The tool should also be able to comprehend the underlying framework used by your software.</li>
+  <li><strong>Create the scanning infrastructure, and deploy the tool.</strong> This step involves handling the licensing requirements, setting up access control and authorization, and procuring the resources required (e.g., servers and databases) to deploy the tool.</li>
+  <li><strong>Customize the tool.</strong> Fine-tune the tool to suit the needs of the organization. For example, you might configure it to reduce false positives or find additional security vulnerabilities by writing new rules or updating existing ones. Integrate the tool into the build environment, create dashboards for tracking scan results, and build custom reports.</li>
+  <li><strong>Prioritize and onboard applications.</strong> Once the tool is ready, onboard your applications. If you have a large number of applications, prioritize the high-risk applications to scan first. Eventually, all your applications should be onboarded and scanned regularly, with application scans synced with release cycles, daily or monthly builds, or code check-ins.</li>
+  <li><strong>Analyze scan results.</strong> This step involves triaging the results of the scan to remove false positives. Once the set of issues is finalized, they should be tracked and provided to the deployment teams for proper and timely remediation.</li>
+  <li><strong>Provide governance and training.</strong> Proper governance ensures that your development teams are employing the scanning tools properly. The software security touchpoints should be present within the SDLC. SAST should be incorporated as part of your application development and deployment process.</li>
+</ol>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/JackSaynak/LernDevSecOps">LernDevSecOps</a> is maintained by <a href="https://github.com/JackSaynak">JackSaynak</a>.</span>
+        
+      </footer>
+    </main>
+  </body>
+</html>
