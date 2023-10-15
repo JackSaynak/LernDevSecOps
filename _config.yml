@@ -21,7 +21,7 @@
 title: Introduce to DevSecOps 
 email: jack.saynak@gmail.com
 description: Lerning DevSecOps for beginer
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/LernDevSecOps" # the subpath of your site, e.g. /blog
 url: "jacksaynak.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jack_saynak
 github_username:  JackSaynak
